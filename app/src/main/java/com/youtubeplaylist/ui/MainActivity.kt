@@ -34,6 +34,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, DataTransfer{
         mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
         bt_googleLogin.setOnClickListener(this);
 
+        println("new change here")
+
         vObj = ViewModelProvider(this@MainActivity).get(GoogleLogin::class.java)
         vObj.context =this@MainActivity
         vObj.dataTransfer=this@MainActivity
