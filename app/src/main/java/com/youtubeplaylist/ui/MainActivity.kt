@@ -36,8 +36,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, DataTransfer{
 
         println("new change here")
         println("new change here")
-        println("new change here")
-        println("new change here")
 
         vObj = ViewModelProvider(this@MainActivity).get(GoogleLogin::class.java)
         vObj.context =this@MainActivity
