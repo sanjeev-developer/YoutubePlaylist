@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, DataTransfer{
         //sanjeev println("new change here")
 
         println("pushing master code to branchone testing")
-        println("this is the code for branch conflict")
+
 
         vObj = ViewModelProvider(this@MainActivity).get(GoogleLogin::class.java)
         vObj.context =this@MainActivity
