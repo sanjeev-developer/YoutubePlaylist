@@ -49,6 +49,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, DataTransfer{
         println("this is the code for branch conflict test third conflict")
     }
 
+    fun pqr()
+    {
+        println("this is the code for branch master conflict")
+    }
+
     override fun onClick(v: View?) {
         signIn()
         vObj.showToast()
