@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, DataTransfer{
 
     fun abc()
     {
-        println("this is the code for branch conflict test second conflict")
+        println("this is the code for branch conflict test third conflict")
     }
 
     override fun onClick(v: View?) {
