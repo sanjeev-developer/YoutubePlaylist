@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, DataTransfer{
 
     fun pqr()
     {
-        println("this is the code for branch union conflict")
+        println("this is the code for branchone")
     }
 
     override fun onClick(v: View?) {
