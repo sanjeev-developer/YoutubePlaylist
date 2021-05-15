@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, DataTransfer{
 
         println("pushing master code to branchsecond 1")
         println("pushing master code to branchsecond 2")
+        println("pushing master code to branchsecond 3")
 
 
         vObj = ViewModelProvider(this@MainActivity).get(GoogleLogin::class.java)
